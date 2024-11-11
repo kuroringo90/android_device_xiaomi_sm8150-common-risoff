@@ -143,6 +143,7 @@ ro.bluetooth.wipower=false
 # Camera
 persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera
 vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera
+persist.vendor.camera.logInfoMask=false
 
 # Chipset
 ro.soc.manufacturer=QTI
