@@ -306,6 +306,11 @@ PRODUCT_PACKAGES += \
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+KERNEL_PATH := $(COMMON_PATH)/prebuilts
+# Copy Kernel
+KERNEL_IMAGE := device/xiaomi/sm8150-common/prebuilts/Image
+PRODUCT_COPY_FILES += $(KERNEL_IMAGE):kernel
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
